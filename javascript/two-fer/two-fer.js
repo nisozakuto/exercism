@@ -4,12 +4,10 @@
 //
 
 export const twoFer = (data) => {
-if(!data)
-{
-  return "One for you, one for me."
-}
-if(data)
-{
-  return `One for ${data}, one for me.`
-}
+  if (!data) {
+    return "One for you, one for me.";
+  }
+  if (data) {
+    return `One for ${data}, one for me.`;
+  }
 };
